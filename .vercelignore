@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+.npm
+.yarn
+.pnpm
+bun.lockb
+package-lock.json
+yarn.lock
+
+# Build outputs
+.next
+out
+dist
+build
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Testing
+coverage
+.nyc
+*.log
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+!DEPLOYMENT.md
+!QUICK_DEPLOY.md
+!BUILD_FIX.md
+!DISCORD_SETUP.md
+!FIXES_SUMMARY.md
+!README.md
+
+# Skills folder (not needed in production)
+skills/
+
+# Examples (not needed in production)
+examples/
+
+# Vercel specific
+.vercel
+.now
